@@ -25,6 +25,7 @@ nav{
 ul{
     list-style-type: none;
     padding-left: 0;
+    margin-bottom: 0;
 }
 
 a{
@@ -59,7 +60,8 @@ header{
 /* PLAYSTATION LOGO */
 
 .ms_playstation_logo{
-    height: 50px;
+    height: 40px;
+    width: 40px;
 }
 
 .ms_playstation_logo_alignment{
@@ -71,7 +73,7 @@ header{
 
 .ms_burger_alignment{
     display: inline-block;
-    width: 89%;
+    width: 20%;
     text-align: right;
     font-size: 30px;
     vertical-align: middle;
@@ -86,4 +88,17 @@ nav ul{
 nav ul li{
     display: inline-block;
     margin: 0 1rem;
+}
+
+nav .d-none{
+    width: 89%;
+}
+
+.d-none .ms_inline_block ul ,
+.d-none .ms_inline_block div{
+    display: inline-block;
+}
+
+.ms_search_button{
+    margin-left: 1rem;
 }
