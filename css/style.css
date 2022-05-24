@@ -33,6 +33,9 @@ a{
     text-decoration: none;
 }
 
+.btn{
+    border-radius: 25px;
+}
 /* HEADER */
 
 header{
@@ -60,12 +63,12 @@ header{
 /* PLAYSTATION LOGO */
 
 .ms_playstation_logo{
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
 }
 
 .ms_playstation_logo_alignment{
-    width: 10%;
+    width: 5%;
     display: inline-block;
 }
 
@@ -99,6 +102,53 @@ nav .d-none{
     display: inline-block;
 }
 
+/* BUTTON */
+
 .ms_search_button{
     margin-left: 1rem;
+}
+
+/* MAIN */
+
+.ms_jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+/* JUMBOTRON CONTENT */
+
+/* JUMBOTRON IMAGE */
+
+.ms_jumbotron_img{
+    margin-top: 300px;
+}
+
+.ms_returnal_banner{
+    width: 60%;
+}
+
+/* JUMBOTRON TITLE */
+
+.ms_jumbotron_title{
+    margin: 1.5rem 0;
+    color: white;
+}
+
+.ms_jumbotron_title h2{
+    font-size: 2.5rem;
+}
+
+/* JUMBOTRON TEXT */
+
+.ms_jumbotron_text{
+    color: white;
+    margin: 2rem 0;
+}
+
+/* JUMBOTRON BUTTON */
+
+.ms_jumbotron_button{
+    margin-top: 2rem;
+margin-bottom: 3rem;
 }
