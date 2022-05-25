@@ -117,6 +117,7 @@ nav .d-none{
 .ms_jumbotron{
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
     background-position-x: center;
 }
 
@@ -168,7 +169,7 @@ margin-bottom: 3rem;
 }
 
 .ms_game_cards img:hover{
-    padding: 3px;
+    padding: 0 2px;
     border: 2px solid blue;
 }
 
@@ -202,4 +203,22 @@ margin-bottom: 3rem;
 }
 .ms_exhibitor .col-4:hover{
     border-bottom: 1px solid blue;
+}
+
+/* IT TAKES 2 JUMBOTRON */
+
+.ms_jumbotron_2{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    margin-top: 2rem;
+}
+
+.ms_ittakestwo_img{
+    margin-top: 150px;
+}
+
+.ms_ittakestwo_banner{
+    width: 60%;
 }
