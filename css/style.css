@@ -282,10 +282,6 @@ margin-bottom: 3rem;
     width: 350px;
 }
 
-.ms_vertical_align{
-    vertical-align: middle;
-}
-
 .ms_plus_text button{
     background-color: #d9dadc;
     border: 1px solid #d9dadc;
@@ -295,14 +291,6 @@ margin-bottom: 3rem;
 .ms_plus_monthly img{
     width: 100%;
     height: 100%;
-}
-
-/* MEDIA QUERIES */
-
-@media screen and (max-width:767px) {
-    .ms_plus_alignments{
-        margin: 2rem 0;
-    }
 }
 
 /* PLAYSTATION STORE SECTION */
@@ -336,3 +324,40 @@ margin-bottom: 3rem;
     font-size: 1.4rem;
 }
 
+/* PLAYSTATION NOW SECTION */
+
+.ms_now{
+    margin-top: 8rem;
+    background-color: #161c3b;
+    color: white;
+}
+
+.ms_now_logo{
+    width: 350px;
+}
+
+.ms_now_text{
+    margin-top: 2rem;
+}
+
+.ms_now_text button{
+    background-color: #d9dadc;
+    border: 1px solid #d9dadc;
+    color: #3569e6;
+}
+
+.ms_now_monthly img{
+    width: 100%;
+    height: 100%;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:767px) {
+    .ms_plus_alignments{
+        margin: 2rem 0;
+    }
+    .ms_now_alignments{
+        margin: 2rem 0;
+    }
+}
