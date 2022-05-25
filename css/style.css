@@ -37,6 +37,10 @@ a{
     border-radius: 25px;
 }
 
+.btn:hover{
+    filter: grayscale(1);
+}
+
 .ms_blue_text{
     color: #0c78d0;
 }
@@ -171,7 +175,7 @@ margin-bottom: 3rem;
 }
 
 .ms_game_cards img:hover{
-    padding: 3px;
+    transform: scale(0.9);
     border: 2px solid blue;
 }
 
