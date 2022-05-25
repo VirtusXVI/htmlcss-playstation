@@ -233,3 +233,28 @@ margin-bottom: 3rem;
     padding-bottom: 3rem;
     color: white;
 }
+
+/* PLAYSTATION 4 SECTION */
+
+.ms_ps4_section{
+    margin-top: 4rem;
+}
+
+.ms_ps4_title p{
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+}
+
+.ms_ps4_title h2{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.ms_ps4_card_text h3{
+    font-size: 3rem;
+}
+
+.ms_ps4_card_text p{
+    font-size: 1.4rem;
+}
