@@ -36,6 +36,10 @@ a{
 .btn{
     border-radius: 25px;
 }
+
+.ms_blue_text{
+    color: #0c78d0;
+}
 /* HEADER */
 
 header{
@@ -151,4 +155,51 @@ nav .d-none{
 .ms_jumbotron_button{
     margin-top: 2rem;
 margin-bottom: 3rem;
+}
+
+/* GAME CARDS SECTION */
+
+.ms_game_cards{
+    margin-top: 2rem;
+}
+
+.ms_game_cards img{
+    border-radius: 15px;
+}
+
+.ms_game_cards img:hover{
+    padding: 3px;
+    border: 2px solid blue;
+}
+
+/* PLAYSTATION 5 SECTION */
+
+.ms_playstation5{
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.ms_playstation5 h2{
+    font-size: 3rem;
+    
+}
+
+.ms_playstation5 p{
+    font-size: 1.3rem;
+    color: #7c7c7c;
+}
+
+.ms_playstation5 .row div{
+   vertical-align: middle;
+}
+
+.ms_exhibitor img{
+    filter: opacity(0.5);
+}
+
+.ms_exhibitor .col-4:hover img{
+    filter: opacity(1);
+}
+.ms_exhibitor .col-4:hover{
+    border-bottom: 1px solid blue;
 }
