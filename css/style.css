@@ -166,10 +166,12 @@ margin-bottom: 3rem;
 
 .ms_game_cards img{
     border-radius: 15px;
+    padding: 3px;
+    border: 2px solid transparent;
 }
 
 .ms_game_cards img:hover{
-    padding: 0 2px;
+    padding: 3px;
     border: 2px solid blue;
 }
 
@@ -198,6 +200,10 @@ margin-bottom: 3rem;
 
 .ms_exhibitor img{
     filter: opacity(0.5);
+}
+
+.ms_exhibitor .col-4{
+    border-bottom: 1px solid transparent;
 }
 
 .ms_exhibitor .col-4:hover img{
