@@ -304,3 +304,35 @@ margin-bottom: 3rem;
         margin: 2rem 0;
     }
 }
+
+/* PLAYSTATION STORE SECTION */
+
+.ms_psstore_section{
+    margin-top: 4rem;
+}
+
+.ms_psstore_title p{
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+}
+
+.ms_psstore_title h2{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.ms_psstore_section .col-12{
+    margin: 2rem 0;
+}
+
+/* PLAYSTATION STORE CARDS */
+
+.ms_psstore_card_text h3{
+    font-size: 3rem;
+}
+
+.ms_psstore_card_text p{
+    font-size: 1.4rem;
+}
+
