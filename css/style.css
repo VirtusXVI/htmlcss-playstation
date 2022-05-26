@@ -351,6 +351,26 @@ margin-bottom: 3rem;
     height: 100%;
 }
 
+/* SOCIAL MEDIA SECTION */
+
+.ms_social_section{
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.ms_social_container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.ms_social_section h2{
+    margin-bottom: 6rem;
+}
+
+.ms_social_section img{
+    width: 100%;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width:767px) {
@@ -361,3 +381,4 @@ margin-bottom: 3rem;
         margin: 2rem 0;
     }
 }
+
