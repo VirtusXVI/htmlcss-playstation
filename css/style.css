@@ -371,6 +371,36 @@ margin-bottom: 3rem;
     width: 100%;
 }
 
+/* FOOTER */
+
+footer{
+    background-color: #00439c;
+    color: white;
+}
+
+/* LANGAGE + NAV SECTION */
+
+.ms_language{
+    margin-top: 4rem;
+    padding-top: 5rem;
+}
+
+.ms_language img{
+    width: 30%;
+}
+
+.ms_langiage_selection{
+    margin: 2rem 0;
+}
+
+.ms_language a{
+    color: white;
+}
+
+.list-group{
+    padding-left: 20px;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width:767px) {
