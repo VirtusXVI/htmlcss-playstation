@@ -401,6 +401,22 @@ footer{
     padding-left: 20px;
 }
 
+/* COPYRIGHT SECTION */
+
+.ms_copyright{
+    padding-top: 2rem;
+}
+
+.ms_copyright img{
+    width: 25%;
+    margin-bottom: 1rem;
+}
+
+
+.ms_copyright p{
+    margin-bottom: 0;
+    padding-bottom: 7rem;
+}
 /* MEDIA QUERIES */
 
 @media screen and (max-width:767px) {
